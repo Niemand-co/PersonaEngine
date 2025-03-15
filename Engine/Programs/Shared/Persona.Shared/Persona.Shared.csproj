@@ -1,0 +1,31 @@
+<Project Sdk="Microsoft.NET.Sdk" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+    <Import Project="..\..\PersonaEngine.csproj.props" />
+    <PropertyGroup>
+        <TargetFramework>net6.0</TargetFramework>
+        <Configuration Condition="'${Configuration}'==''">Debug</Configuration>
+        <OutputPath>..\..\..\Binaries\DotNet\Persona.Shared</OutputPath>
+        <OutputType>Library</OutputType>
+        <Configurations>Debug;Release</Configurations>
+        <Platform>Any CPU</Platform>
+        <AssemblyName>Persona.Shared</AssemblyName>
+        <RootNamespace>Persona.Shared</RootNamespace>
+        <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
+        <GenerateTargetFrameworkAttribute>false</GenerateTargetFrameworkAttribute>
+        <EnableDefaultCompileItems>false</EnableDefaultCompileItems>
+        <AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
+        <ProjectGuid>{C9E8D86C-8C16-63FF-20B4-8B31F88AB26B}</ProjectGuid>
+    </PropertyGroup>
+    <ItemGroup Label="ProjectConfigurations">
+        <ProjectConfiguration Include="Debug|Any CPU">
+            <Configuration>Debug</Configuration>
+            <Platform>Any CPU</Platform>
+        </ProjectConfiguration>
+        <ProjectConfiguration Include="Release|Any CPU">
+            <Configuration>Release</Configuration>
+            <Platform>Any CPU</Platform>
+        </ProjectConfiguration>
+    </ItemGroup>
+    <ItemGroup>
+        <Compile Include="**/*.cs" />
+    </ItemGroup>
+</Project>

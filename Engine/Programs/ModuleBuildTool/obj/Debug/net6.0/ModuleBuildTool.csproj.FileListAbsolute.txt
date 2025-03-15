@@ -1,0 +1,16 @@
+D:\Projects\PersonaEngine\Binaries\DotNet\ModuleBuildTool\net6.0\ModuleBuildTool.exe
+D:\Projects\PersonaEngine\Binaries\DotNet\ModuleBuildTool\net6.0\ModuleBuildTool.deps.json
+D:\Projects\PersonaEngine\Binaries\DotNet\ModuleBuildTool\net6.0\ModuleBuildTool.runtimeconfig.json
+D:\Projects\PersonaEngine\Binaries\DotNet\ModuleBuildTool\net6.0\ModuleBuildTool.dll
+D:\Projects\PersonaEngine\Binaries\DotNet\ModuleBuildTool\net6.0\ref\ModuleBuildTool.dll
+D:\Projects\PersonaEngine\Binaries\DotNet\ModuleBuildTool\net6.0\ModuleBuildTool.pdb
+D:\Projects\PersonaEngine\Engine\Programs\ModuleBuildTool\obj\Debug\net6.0\ModuleBuildTool.csproj.AssemblyReference.cache
+D:\Projects\PersonaEngine\Engine\Programs\ModuleBuildTool\obj\Debug\net6.0\ModuleBuildTool.GeneratedMSBuildEditorConfig.editorconfig
+D:\Projects\PersonaEngine\Engine\Programs\ModuleBuildTool\obj\Debug\net6.0\ModuleBuildTool.AssemblyInfoInputs.cache
+D:\Projects\PersonaEngine\Engine\Programs\ModuleBuildTool\obj\Debug\net6.0\ModuleBuildTool.AssemblyInfo.cs
+D:\Projects\PersonaEngine\Engine\Programs\ModuleBuildTool\obj\Debug\net6.0\ModuleBuildTool.csproj.CoreCompileInputs.cache
+D:\Projects\PersonaEngine\Engine\Programs\ModuleBuildTool\obj\Debug\net6.0\ModuleBuildTool.csproj.CopyComplete
+D:\Projects\PersonaEngine\Engine\Programs\ModuleBuildTool\obj\Debug\net6.0\ModuleBuildTool.dll
+D:\Projects\PersonaEngine\Engine\Programs\ModuleBuildTool\obj\Debug\net6.0\refint\ModuleBuildTool.dll
+D:\Projects\PersonaEngine\Engine\Programs\ModuleBuildTool\obj\Debug\net6.0\ModuleBuildTool.pdb
+D:\Projects\PersonaEngine\Engine\Programs\ModuleBuildTool\obj\Debug\net6.0\ModuleBuildTool.genruntimeconfig.cache

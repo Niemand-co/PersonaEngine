@@ -1,0 +1,2 @@
+// PCH for "OpenGLRHI"
+#define OPENGLRHI_API DLLEXPORT

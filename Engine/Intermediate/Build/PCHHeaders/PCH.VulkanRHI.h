@@ -1,0 +1,2 @@
+// PCH for "VulkanRHI"
+#define VULKANRHI_API DLLEXPORT

@@ -1,0 +1,13 @@
+D:\Projects\PersonaEngine\Engine\Binaries\DotNet\PERules\PERules.deps.json
+D:\Projects\PersonaEngine\Engine\Binaries\DotNet\PERules\PERules.dll
+D:\Projects\PersonaEngine\Engine\Binaries\DotNet\PERules\ref\PERules.dll
+D:\Projects\PersonaEngine\Engine\Binaries\DotNet\PERules\PERules.pdb
+D:\Projects\PersonaEngine\Engine\Intermediate\Build\BuildRules\obj\Development\PERules.csproj.AssemblyReference.cache
+D:\Projects\PersonaEngine\Engine\Intermediate\Build\BuildRules\obj\Development\PERules.GeneratedMSBuildEditorConfig.editorconfig
+D:\Projects\PersonaEngine\Engine\Intermediate\Build\BuildRules\obj\Development\PERules.AssemblyInfoInputs.cache
+D:\Projects\PersonaEngine\Engine\Intermediate\Build\BuildRules\obj\Development\PERules.AssemblyInfo.cs
+D:\Projects\PersonaEngine\Engine\Intermediate\Build\BuildRules\obj\Development\PERules.csproj.CoreCompileInputs.cache
+D:\Projects\PersonaEngine\Engine\Intermediate\Build\BuildRules\obj\Development\PERules.dll
+D:\Projects\PersonaEngine\Engine\Intermediate\Build\BuildRules\obj\Development\refint\PERules.dll
+D:\Projects\PersonaEngine\Engine\Intermediate\Build\BuildRules\obj\Development\PERules.pdb
+D:\Projects\PersonaEngine\Engine\Intermediate\Build\BuildRules\obj\Development\PERules.csproj.Up2Date

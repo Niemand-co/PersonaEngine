@@ -1,0 +1,44 @@
+<Project Sdk="Microsoft.NET.Sdk" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+    <PropertyGroup>
+        <TargetFramework>net6.0</TargetFramework>
+        <Configuration Condition="'${Configuration}'==''">Debug</Configuration>
+        <OutputType>Exe</OutputType>
+        <OutputPath>..\..\Binaries\DotNet\ModuleBuildTool</OutputPath>
+        <AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
+        <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
+        <GenerateTargetFrameworkAttribute>false</GenerateTargetFrameworkAttribute>
+        <Configurations>Debug;Release;Development</Configurations>
+        <AssemblyName>ModuleBuildTool</AssemblyName>
+        <RootNamespace>ModuleBuildTool</RootNamespace>
+        <EnableDefaultCompileItems>false</EnableDefaultCompileItems>
+    </PropertyGroup>
+    <ItemGroup Label="ProjectConfigurations">
+        <ProjectConfiguration Include="Debug|Any CPU">
+            <Configuration>Debug</Configuration>
+            <Platform>Any CPU</Platform>
+        </ProjectConfiguration>
+    </ItemGroup>
+    <ItemGroup Label="ProjectConfigurations">
+        <ProjectConfiguration Include="Release|Any CPU">
+            <Configuration>Release</Configuration>
+            <Platform>Any CPU</Platform>
+        </ProjectConfiguration>
+    </ItemGroup>
+    <ItemGroup Label="ProjectConfigurations">
+        <ProjectConfiguration Include="Development|Any CPU">
+            <Configuration>Development</Configuration>
+            <Platform>Any CPU</Platform>
+        </ProjectConfiguration>
+    </ItemGroup>
+    <Import Project="..\PersonaEngine.csproj.props" />
+    <PropertyGroup>
+        <ProjectGuid>{DF7DCBBD-D887-D3EE-95DF-396BE390FFF4}</ProjectGuid>
+    </PropertyGroup>
+    <ItemGroup>
+        <ProjectReference Include="..\Shared\Persona.Shared\Persona.Shared.csproj" />
+    </ItemGroup>
+    <ItemGroup>
+        <Compile Include="*.cs" />
+        <Compile Include="ProjectGenerator\*.cs" />
+    </ItemGroup>    
+</Project>

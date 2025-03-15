@@ -1,0 +1,314 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+	<ItemGroup>
+		<Filter Include="Source">
+			<UniqueIdentifier>{F951083F-3E6A-9C60-1B9B-894B652F863A}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="Source\Editor">
+			<UniqueIdentifier>{07D1BA41-4A93-B02E-1394-F16A47BC4615}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Source\Editor\Editor.Build.cs">
+			<Filter>Source\Editor</Filter>
+		</None>
+		<Filter Include="Source\Runtime">
+			<UniqueIdentifier>{91F57F70-E1C0-6CE4-5BF4-DCC4E90735D3}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="Source\Runtime\Core">
+			<UniqueIdentifier>{B464FF50-1816-5A2D-D782-C02BF8B72936}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Source\Runtime\Core\Core.Build.cs">
+			<Filter>Source\Runtime\Core</Filter>
+		</None>
+		<Filter Include="Source\Runtime\Core\Private">
+			<UniqueIdentifier>{4F65B232-D84E-B09C-412D-5A03E869A311}</UniqueIdentifier>
+		</Filter>
+		<ClInclude Include="D:\Projects\PersonaEngine\Engine\Source\Runtime\Core\Private\PrivateCorePCH.h">
+			<Filter>Source\Runtime\Core\Private</Filter>
+		</ClInclude>
+		<Filter Include="Source\Runtime\Core\Private\Compression">
+			<UniqueIdentifier>{3C92AD1C-1111-AC23-BFBA-75FDFA3F3651}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="Source\Runtime\Core\Private\Containers">
+			<UniqueIdentifier>{83BABB1D-CA0F-D939-0BFA-DED3FDC993EF}</UniqueIdentifier>
+		</Filter>
+		<ClCompile Include="D:\Projects\PersonaEngine\Engine\Source\Runtime\Core\Private\Containers\Array.cpp">
+			<Filter>Source\Runtime\Core\Private\Containers</Filter>
+		</ClCompile>
+		<ClCompile Include="D:\Projects\PersonaEngine\Engine\Source\Runtime\Core\Private\Containers\Map.cpp">
+			<Filter>Source\Runtime\Core\Private\Containers</Filter>
+		</ClCompile>
+		<ClCompile Include="D:\Projects\PersonaEngine\Engine\Source\Runtime\Core\Private\Containers\String.cpp">
+			<Filter>Source\Runtime\Core\Private\Containers</Filter>
+		</ClCompile>
+		<ClCompile Include="D:\Projects\PersonaEngine\Engine\Source\Runtime\Core\Private\Containers\Vector.cpp">
+			<Filter>Source\Runtime\Core\Private\Containers</Filter>
+		</ClCompile>
+		<Filter Include="Source\Runtime\Core\Private\HAL">
+			<UniqueIdentifier>{871DB27F-A0FF-38B8-B5A4-2FE2EE0B3751}</UniqueIdentifier>
+		</Filter>
+		<ClCompile Include="D:\Projects\PersonaEngine\Engine\Source\Runtime\Core\Private\HAL\GenericPlatform.cpp">
+			<Filter>Source\Runtime\Core\Private\HAL</Filter>
+		</ClCompile>
+		<ClCompile Include="D:\Projects\PersonaEngine\Engine\Source\Runtime\Core\Private\HAL\Platform.cpp">
+			<Filter>Source\Runtime\Core\Private\HAL</Filter>
+		</ClCompile>
+		<Filter Include="Source\Runtime\Core\Private\Math">
+			<UniqueIdentifier>{93513A24-812E-B899-B426-0422C3128C79}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="Source\Runtime\Core\Private\Memory">
+			<UniqueIdentifier>{2C54E1C5-5BA8-9C3E-F8B1-92B6CD6F338F}</UniqueIdentifier>
+		</Filter>
+		<ClCompile Include="D:\Projects\PersonaEngine\Engine\Source\Runtime\Core\Private\Memory\Memory.cpp">
+			<Filter>Source\Runtime\Core\Private\Memory</Filter>
+		</ClCompile>
+		<Filter Include="Source\Runtime\Core\Private\Misc">
+			<UniqueIdentifier>{60454997-DF22-0FCD-946C-59A49D0849FE}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="Source\Runtime\Core\Private\Windows">
+			<UniqueIdentifier>{858D0DA6-3E0A-583D-3769-8FCCC9E2D28C}</UniqueIdentifier>
+		</Filter>
+		<ClCompile Include="D:\Projects\PersonaEngine\Engine\Source\Runtime\Core\Private\Windows\WindowsEntry.cpp">
+			<Filter>Source\Runtime\Core\Private\Windows</Filter>
+		</ClCompile>
+		<ClCompile Include="D:\Projects\PersonaEngine\Engine\Source\Runtime\Core\Private\Windows\WindowsPlatform.cpp">
+			<Filter>Source\Runtime\Core\Private\Windows</Filter>
+		</ClCompile>
+		<Filter Include="Source\Runtime\Core\Public">
+			<UniqueIdentifier>{30C14F38-0750-7BA7-2DE6-48148293533F}</UniqueIdentifier>
+		</Filter>
+		<ClInclude Include="D:\Projects\PersonaEngine\Engine\Source\Runtime\Core\Public\Core.h">
+			<Filter>Source\Runtime\Core\Public</Filter>
+		</ClInclude>
+		<Filter Include="Source\Runtime\Core\Public\Compression">
+			<UniqueIdentifier>{0383F973-63CD-29E7-6AB2-4E52D5CED6CF}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="Source\Runtime\Core\Public\Containers">
+			<UniqueIdentifier>{3439A650-ACEC-AC60-2C8C-DDBDB1BC4217}</UniqueIdentifier>
+		</Filter>
+		<ClInclude Include="D:\Projects\PersonaEngine\Engine\Source\Runtime\Core\Public\Containers\Array.h">
+			<Filter>Source\Runtime\Core\Public\Containers</Filter>
+		</ClInclude>
+		<ClInclude Include="D:\Projects\PersonaEngine\Engine\Source\Runtime\Core\Public\Containers\Map.h">
+			<Filter>Source\Runtime\Core\Public\Containers</Filter>
+		</ClInclude>
+		<ClInclude Include="D:\Projects\PersonaEngine\Engine\Source\Runtime\Core\Public\Containers\String.h">
+			<Filter>Source\Runtime\Core\Public\Containers</Filter>
+		</ClInclude>
+		<ClInclude Include="D:\Projects\PersonaEngine\Engine\Source\Runtime\Core\Public\Containers\Vector.h">
+			<Filter>Source\Runtime\Core\Public\Containers</Filter>
+		</ClInclude>
+		<Filter Include="Source\Runtime\Core\Public\HAL">
+			<UniqueIdentifier>{59311D7C-18A2-865A-20A3-3A19E81DBCC9}</UniqueIdentifier>
+		</Filter>
+		<ClInclude Include="D:\Projects\PersonaEngine\Engine\Source\Runtime\Core\Public\HAL\GenericPlatform.h">
+			<Filter>Source\Runtime\Core\Public\HAL</Filter>
+		</ClInclude>
+		<ClInclude Include="D:\Projects\PersonaEngine\Engine\Source\Runtime\Core\Public\HAL\Platform.h">
+			<Filter>Source\Runtime\Core\Public\HAL</Filter>
+		</ClInclude>
+		<Filter Include="Source\Runtime\Core\Public\Math">
+			<UniqueIdentifier>{5F013742-F75F-52E2-0246-BAD28E180742}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="Source\Runtime\Core\Public\Memory">
+			<UniqueIdentifier>{7330D843-0210-C7E5-3F61-1F60DB9F9FDC}</UniqueIdentifier>
+		</Filter>
+		<ClInclude Include="D:\Projects\PersonaEngine\Engine\Source\Runtime\Core\Public\Memory\Memory.h">
+			<Filter>Source\Runtime\Core\Public\Memory</Filter>
+		</ClInclude>
+		<Filter Include="Source\Runtime\Core\Public\Misc">
+			<UniqueIdentifier>{7F5A4C35-AE7B-F730-3E09-687C39AE3F22}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="Source\Runtime\Core\Public\Windows">
+			<UniqueIdentifier>{3372C073-7918-BBF8-4682-B3C1D309842D}</UniqueIdentifier>
+		</Filter>
+		<ClInclude Include="D:\Projects\PersonaEngine\Engine\Source\Runtime\Core\Public\Windows\WindowsEntry.h">
+			<Filter>Source\Runtime\Core\Public\Windows</Filter>
+		</ClInclude>
+		<ClInclude Include="D:\Projects\PersonaEngine\Engine\Source\Runtime\Core\Public\Windows\WindowsPlatform.h">
+			<Filter>Source\Runtime\Core\Public\Windows</Filter>
+		</ClInclude>
+		<Filter Include="Source\Runtime\CoreObject">
+			<UniqueIdentifier>{82CF154D-45C2-4470-0F08-6155E8B3FC8A}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Source\Runtime\CoreObject\CoreObject.Build.cs">
+			<Filter>Source\Runtime\CoreObject</Filter>
+		</None>
+		<Filter Include="Source\Runtime\CoreObject\Private">
+			<UniqueIdentifier>{97D7439E-0A11-FD62-F2FF-CB0B4287B562}</UniqueIdentifier>
+		</Filter>
+		<ClCompile Include="D:\Projects\PersonaEngine\Engine\Source\Runtime\CoreObject\Private\Object.cpp">
+			<Filter>Source\Runtime\CoreObject\Private</Filter>
+		</ClCompile>
+		<Filter Include="Source\Runtime\CoreObject\Public">
+			<UniqueIdentifier>{982FA0CA-0B46-2AB5-0BBF-B60C79885CBA}</UniqueIdentifier>
+		</Filter>
+		<ClInclude Include="D:\Projects\PersonaEngine\Engine\Source\Runtime\CoreObject\Public\Object.h">
+			<Filter>Source\Runtime\CoreObject\Public</Filter>
+		</ClInclude>
+		<Filter Include="Source\Runtime\D3D12RHI">
+			<UniqueIdentifier>{345F3ED1-4057-A20F-94FB-20CF459F2578}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="Source\Runtime\Engine">
+			<UniqueIdentifier>{0E8C90BE-960B-4B06-B21D-3FF0D6F87B92}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Source\Runtime\Engine\Engine.Build.cs">
+			<Filter>Source\Runtime\Engine</Filter>
+		</None>
+		<Filter Include="Source\Runtime\Engine\Private">
+			<UniqueIdentifier>{7B8277BB-4A78-7340-1577-590755D758F8}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="Source\Runtime\Engine\Private\Camera">
+			<UniqueIdentifier>{E36CC155-90FA-9FFD-E671-01A0D7644F81}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="Source\Runtime\Engine\Private\Components">
+			<UniqueIdentifier>{EDE009B2-639E-D0CB-D0BF-881DC8CEA24F}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="Source\Runtime\Engine\Public">
+			<UniqueIdentifier>{5374AEC8-AF23-2223-9CBD-997E8AFCB1E9}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="Source\Runtime\Engine\Public\Camera">
+			<UniqueIdentifier>{7B1D446B-311B-05F2-7370-5256444721DB}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="Source\Runtime\Engine\Public\Components">
+			<UniqueIdentifier>{72951A52-34C8-E50A-E554-770E0329AD68}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="Source\Runtime\Launch">
+			<UniqueIdentifier>{5DD43853-021F-1668-7BF6-E2BD05B254E6}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Source\Runtime\Launch\Launch.Build.cs">
+			<Filter>Source\Runtime\Launch</Filter>
+		</None>
+		<Filter Include="Source\Runtime\Launch\Private">
+			<UniqueIdentifier>{89B55835-81D0-2CF3-F870-4C531A16EB57}</UniqueIdentifier>
+		</Filter>
+		<ClCompile Include="D:\Projects\PersonaEngine\Engine\Source\Runtime\Launch\Private\LaunchEngineLoop.cpp">
+			<Filter>Source\Runtime\Launch\Private</Filter>
+		</ClCompile>
+		<Filter Include="Source\Runtime\Launch\Public">
+			<UniqueIdentifier>{455426A9-FC43-9559-EA87-6CC6EDA82FBB}</UniqueIdentifier>
+		</Filter>
+		<ClInclude Include="D:\Projects\PersonaEngine\Engine\Source\Runtime\Launch\Public\LaunchEngineLoop.h">
+			<Filter>Source\Runtime\Launch\Public</Filter>
+		</ClInclude>
+		<Filter Include="Source\Runtime\OpenGLRHI">
+			<UniqueIdentifier>{13B340C5-1DC1-CF08-B846-697E4EA4D053}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Source\Runtime\OpenGLRHI\OpenGLRHI.Build.cs">
+			<Filter>Source\Runtime\OpenGLRHI</Filter>
+		</None>
+		<Filter Include="Source\Runtime\OpenGLRHI\Private">
+			<UniqueIdentifier>{80B51FE1-9D88-759D-1564-BDE91F880EBD}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="Source\Runtime\OpenGLRHI\Public">
+			<UniqueIdentifier>{39A7BC7C-7F17-9A15-B719-0CD740F620DE}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="Source\Runtime\Render">
+			<UniqueIdentifier>{85743754-D6B2-E246-B8A9-E11301496E2A}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="Source\Runtime\Slate">
+			<UniqueIdentifier>{FABE7A19-97F5-EB13-AA3F-792152B64515}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Source\Runtime\Slate\Slate.Build.cs">
+			<Filter>Source\Runtime\Slate</Filter>
+		</None>
+		<Filter Include="Source\Runtime\Slate\Private">
+			<UniqueIdentifier>{AAF3CA60-3A0B-CF02-C329-0A08BBCEE3A7}</UniqueIdentifier>
+		</Filter>
+		<ClCompile Include="D:\Projects\PersonaEngine\Engine\Source\Runtime\Slate\Private\SButton.cpp">
+			<Filter>Source\Runtime\Slate\Private</Filter>
+		</ClCompile>
+		<ClCompile Include="D:\Projects\PersonaEngine\Engine\Source\Runtime\Slate\Private\SCompoundWidget.cpp">
+			<Filter>Source\Runtime\Slate\Private</Filter>
+		</ClCompile>
+		<ClCompile Include="D:\Projects\PersonaEngine\Engine\Source\Runtime\Slate\Private\SImage.cpp">
+			<Filter>Source\Runtime\Slate\Private</Filter>
+		</ClCompile>
+		<ClCompile Include="D:\Projects\PersonaEngine\Engine\Source\Runtime\Slate\Private\SlateApplication.cpp">
+			<Filter>Source\Runtime\Slate\Private</Filter>
+		</ClCompile>
+		<ClCompile Include="D:\Projects\PersonaEngine\Engine\Source\Runtime\Slate\Private\SLeafWidget.cpp">
+			<Filter>Source\Runtime\Slate\Private</Filter>
+		</ClCompile>
+		<ClCompile Include="D:\Projects\PersonaEngine\Engine\Source\Runtime\Slate\Private\SPanel.cpp">
+			<Filter>Source\Runtime\Slate\Private</Filter>
+		</ClCompile>
+		<ClCompile Include="D:\Projects\PersonaEngine\Engine\Source\Runtime\Slate\Private\STextBlock.cpp">
+			<Filter>Source\Runtime\Slate\Private</Filter>
+		</ClCompile>
+		<ClCompile Include="D:\Projects\PersonaEngine\Engine\Source\Runtime\Slate\Private\SWidget.cpp">
+			<Filter>Source\Runtime\Slate\Private</Filter>
+		</ClCompile>
+		<ClCompile Include="D:\Projects\PersonaEngine\Engine\Source\Runtime\Slate\Private\SWindow.cpp">
+			<Filter>Source\Runtime\Slate\Private</Filter>
+		</ClCompile>
+		<Filter Include="Source\Runtime\Slate\Private\Render">
+			<UniqueIdentifier>{E544DCC0-D63B-5E9F-CD8B-355BA06A4BA7}</UniqueIdentifier>
+		</Filter>
+		<ClCompile Include="D:\Projects\PersonaEngine\Engine\Source\Runtime\Slate\Private\Render\ElementBatchMerger.cpp">
+			<Filter>Source\Runtime\Slate\Private\Render</Filter>
+		</ClCompile>
+		<ClCompile Include="D:\Projects\PersonaEngine\Engine\Source\Runtime\Slate\Private\Render\SlateDrawElement.cpp">
+			<Filter>Source\Runtime\Slate\Private\Render</Filter>
+		</ClCompile>
+		<ClCompile Include="D:\Projects\PersonaEngine\Engine\Source\Runtime\Slate\Private\Render\SlateRenderer.cpp">
+			<Filter>Source\Runtime\Slate\Private\Render</Filter>
+		</ClCompile>
+		<Filter Include="Source\Runtime\Slate\Public">
+			<UniqueIdentifier>{AD2F6FBF-6DA5-D67F-33C7-4EC0BA993B2A}</UniqueIdentifier>
+		</Filter>
+		<ClInclude Include="D:\Projects\PersonaEngine\Engine\Source\Runtime\Slate\Public\SButton.h">
+			<Filter>Source\Runtime\Slate\Public</Filter>
+		</ClInclude>
+		<ClInclude Include="D:\Projects\PersonaEngine\Engine\Source\Runtime\Slate\Public\SCompoundWidget.h">
+			<Filter>Source\Runtime\Slate\Public</Filter>
+		</ClInclude>
+		<ClInclude Include="D:\Projects\PersonaEngine\Engine\Source\Runtime\Slate\Public\SImage.h">
+			<Filter>Source\Runtime\Slate\Public</Filter>
+		</ClInclude>
+		<ClInclude Include="D:\Projects\PersonaEngine\Engine\Source\Runtime\Slate\Public\SlateApplication.h">
+			<Filter>Source\Runtime\Slate\Public</Filter>
+		</ClInclude>
+		<ClInclude Include="D:\Projects\PersonaEngine\Engine\Source\Runtime\Slate\Public\SLeafWidget.h">
+			<Filter>Source\Runtime\Slate\Public</Filter>
+		</ClInclude>
+		<ClInclude Include="D:\Projects\PersonaEngine\Engine\Source\Runtime\Slate\Public\SPanel.h">
+			<Filter>Source\Runtime\Slate\Public</Filter>
+		</ClInclude>
+		<ClInclude Include="D:\Projects\PersonaEngine\Engine\Source\Runtime\Slate\Public\STextBlock.h">
+			<Filter>Source\Runtime\Slate\Public</Filter>
+		</ClInclude>
+		<ClInclude Include="D:\Projects\PersonaEngine\Engine\Source\Runtime\Slate\Public\SWidget.h">
+			<Filter>Source\Runtime\Slate\Public</Filter>
+		</ClInclude>
+		<ClInclude Include="D:\Projects\PersonaEngine\Engine\Source\Runtime\Slate\Public\SWindow.h">
+			<Filter>Source\Runtime\Slate\Public</Filter>
+		</ClInclude>
+		<Filter Include="Source\Runtime\Slate\Public\Render">
+			<UniqueIdentifier>{75103451-B948-01A6-9E66-26D789B10A82}</UniqueIdentifier>
+		</Filter>
+		<ClInclude Include="D:\Projects\PersonaEngine\Engine\Source\Runtime\Slate\Public\Render\ElementBatchMerger.h">
+			<Filter>Source\Runtime\Slate\Public\Render</Filter>
+		</ClInclude>
+		<ClInclude Include="D:\Projects\PersonaEngine\Engine\Source\Runtime\Slate\Public\Render\SlateDrawElement.h">
+			<Filter>Source\Runtime\Slate\Public\Render</Filter>
+		</ClInclude>
+		<ClInclude Include="D:\Projects\PersonaEngine\Engine\Source\Runtime\Slate\Public\Render\SlateRenderer.h">
+			<Filter>Source\Runtime\Slate\Public\Render</Filter>
+		</ClInclude>
+		<Filter Include="Source\Runtime\VulkanRHI">
+			<UniqueIdentifier>{8E073FEF-7FA3-34CA-49D7-9C41EBD84789}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Source\Runtime\VulkanRHI\VulkanRHI.Build.cs">
+			<Filter>Source\Runtime\VulkanRHI</Filter>
+		</None>
+		<Filter Include="Source\Runtime\VulkanRHI\Private">
+			<UniqueIdentifier>{4BE08378-3629-6DD9-1E62-E6C61B891958}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="Source\Runtime\VulkanRHI\Public">
+			<UniqueIdentifier>{3AC08C6D-E69B-92E4-D43F-EED49F45319F}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="Source\ThirdParty">
+			<UniqueIdentifier>{B6ACEC9E-1490-4E1A-7C8C-5AF71DEB9A1D}</UniqueIdentifier>
+		</Filter>
+	</ItemGroup>
+</Project>

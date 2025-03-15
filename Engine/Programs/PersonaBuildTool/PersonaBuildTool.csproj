@@ -1,0 +1,38 @@
+<Project Sdk="Microsoft.NET.Sdk">
+	<PropertyGroup>
+		<TargetFramework>net6.0</TargetFramework>
+		<OutputType>Exe</OutputType>
+		<OutputPath>..\..\Binaries\DotNet\PersonaBuildTool</OutputPath>
+		<AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
+		<GenerateAssemblyInfo>false</GenerateAssemblyInfo>
+		<GenerateTargetFrameworkAttribute>false</GenerateTargetFrameworkAttribute>
+		<Configurations>Debug;Release;Development</Configurations>
+		<AssemblyName>PersonaBuildTool</AssemblyName>
+		<RootNamespace>PersonaBuildTool</RootNamespace>
+		<EnableDefaultCompileItems>false</EnableDefaultCompileItems>
+		<ProjectGuid>{DF7DCBBD-D887-D3EE-95DF-396BE390FFF3}</ProjectGuid>
+	</PropertyGroup>
+	<ItemGroup Label="ProjectConfigurations">
+		<ProjectConfiguration Include="Debug|Any CPU">
+			<Configuration>Debug</Configuration>
+			<Platform>Any CPU</Platform>
+		</ProjectConfiguration>
+		<ProjectConfiguration Include="Release|Any CPU">
+			<Configuration>Release</Configuration>
+			<Platform>Any CPU</Platform>
+		</ProjectConfiguration>
+		<ProjectConfiguration Include="Development|Any CPU">
+			<Configuration>Development</Configuration>
+			<Platform>Any CPU</Platform>
+		</ProjectConfiguration>
+	</ItemGroup>
+	<Import Project="..\PersonaEngine.csproj.props" />
+	<ItemGroup>
+		<ProjectReference Include="..\Shared\Persona.Shared\Persona.Shared.csproj" />
+		<ProjectReference Include="..\..\Intermediate\Build\BuildRules\PERules.csproj" />
+		<ProjectReference Include="..\Shared\Persona.Build\Persona.Build.csproj" />
+	</ItemGroup>
+	<ItemGroup>
+		<Compile Include="**\*.cs" />
+	</ItemGroup>
+</Project>

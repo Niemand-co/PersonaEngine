@@ -1,0 +1,14 @@
+D:\Projects\PersonaEngine\Binaries\DotNet\Persona.Shared\net6.0\Persona.Shared.deps.json
+D:\Projects\PersonaEngine\Binaries\DotNet\Persona.Shared\net6.0\Persona.Shared.dll
+D:\Projects\PersonaEngine\Binaries\DotNet\Persona.Shared\net6.0\ref\Persona.Shared.dll
+D:\Projects\PersonaEngine\Binaries\DotNet\Persona.Shared\net6.0\Persona.Shared.pdb
+D:\Projects\PersonaEngine\Engine\Programs\Shared\Persona.Shared\obj\Debug\net6.0\Persona.Shared.csproj.AssemblyReference.cache
+D:\Projects\PersonaEngine\Engine\Programs\Shared\Persona.Shared\obj\Debug\net6.0\Persona.Shared.GeneratedMSBuildEditorConfig.editorconfig
+D:\Projects\PersonaEngine\Engine\Programs\Shared\Persona.Shared\obj\Debug\net6.0\Persona.Shared.csproj.CoreCompileInputs.cache
+D:\Projects\PersonaEngine\Engine\Programs\Shared\Persona.Shared\obj\Debug\net6.0\Persona.Shared.dll
+D:\Projects\PersonaEngine\Engine\Programs\Shared\Persona.Shared\obj\Debug\net6.0\refint\Persona.Shared.dll
+D:\Projects\PersonaEngine\Engine\Programs\Shared\Persona.Shared\obj\Debug\net6.0\Persona.Shared.pdb
+D:\Projects\PersonaEngine\Engine\Binaries\DotNet\Persona.Shared\net6.0\Persona.Shared.deps.json
+D:\Projects\PersonaEngine\Engine\Binaries\DotNet\Persona.Shared\net6.0\Persona.Shared.dll
+D:\Projects\PersonaEngine\Engine\Binaries\DotNet\Persona.Shared\net6.0\ref\Persona.Shared.dll
+D:\Projects\PersonaEngine\Engine\Binaries\DotNet\Persona.Shared\net6.0\Persona.Shared.pdb

@@ -1,0 +1,17 @@
+D:\Projects\PersonaEngine\Engine\Binaries\DotNet\ModuleBuildTool\net6.0\ModuleBuildTool.deps.json
+D:\Projects\PersonaEngine\Engine\Binaries\DotNet\ModuleBuildTool\net6.0\ModuleBuildTool.dll
+D:\Projects\PersonaEngine\Engine\Binaries\DotNet\ModuleBuildTool\net6.0\ref\ModuleBuildTool.dll
+D:\Projects\PersonaEngine\Engine\Binaries\DotNet\ModuleBuildTool\net6.0\ModuleBuildTool.pdb
+D:\Projects\PersonaEngine\Engine\Intermediate\Build\BuildRules\obj\Debug\net6.0\PERules.csproj.AssemblyReference.cache
+D:\Projects\PersonaEngine\Engine\Intermediate\Build\BuildRules\obj\Debug\net6.0\PERules.GeneratedMSBuildEditorConfig.editorconfig
+D:\Projects\PersonaEngine\Engine\Intermediate\Build\BuildRules\obj\Debug\net6.0\PERules.AssemblyInfoInputs.cache
+D:\Projects\PersonaEngine\Engine\Intermediate\Build\BuildRules\obj\Debug\net6.0\PERules.AssemblyInfo.cs
+D:\Projects\PersonaEngine\Engine\Intermediate\Build\BuildRules\obj\Debug\net6.0\PERules.csproj.CoreCompileInputs.cache
+D:\Projects\PersonaEngine\Engine\Intermediate\Build\BuildRules\obj\Debug\net6.0\PERules.csproj.CopyComplete
+D:\Projects\PersonaEngine\Engine\Binaries\DotNet\PERules\net6.0\PERules.deps.json
+D:\Projects\PersonaEngine\Engine\Binaries\DotNet\PERules\net6.0\PERules.dll
+D:\Projects\PersonaEngine\Engine\Binaries\DotNet\PERules\net6.0\ref\PERules.dll
+D:\Projects\PersonaEngine\Engine\Binaries\DotNet\PERules\net6.0\PERules.pdb
+D:\Projects\PersonaEngine\Engine\Intermediate\Build\BuildRules\obj\Debug\net6.0\PERules.dll
+D:\Projects\PersonaEngine\Engine\Intermediate\Build\BuildRules\obj\Debug\net6.0\refint\PERules.dll
+D:\Projects\PersonaEngine\Engine\Intermediate\Build\BuildRules\obj\Debug\net6.0\PERules.pdb

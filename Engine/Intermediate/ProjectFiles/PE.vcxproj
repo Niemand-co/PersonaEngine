@@ -1,0 +1,309 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+	<ItemGroup Label="ProjectConfigurations">
+		<ProjectConfiguration Include="Development_Editor|x64">
+			<Configuration>Development_Editor</Configuration>
+			<Platform>x64</Platform>
+		</ProjectConfiguration>
+		<ProjectConfiguration Include="Development_Game|x64">
+			<Configuration>Development_Game</Configuration>
+			<Platform>x64</Platform>
+		</ProjectConfiguration>
+		<ProjectConfiguration Include="Release_Editor|x64">
+			<Configuration>Release_Editor</Configuration>
+			<Platform>x64</Platform>
+		</ProjectConfiguration>
+		<ProjectConfiguration Include="Release_Game|x64">
+			<Configuration>Release_Game</Configuration>
+			<Platform>x64</Platform>
+		</ProjectConfiguration>
+	</ItemGroup>
+	<Import Project="$(VCTargetsPath)\Microsoft.Cpp.default.props" />
+	<Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+	<PropertyGroup Label="Globals">
+		<ProjectGuid>{22778434-E655-24C7-59E3-0F783FD4A6EF}</ProjectGuid>
+		<VCProjectVersion>17.0</VCProjectVersion>
+		<RootNamespace>PE</RootNamespace>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Development_Editor|x64'" Label="Configuration">
+		<ConfigurationType>Makefile</ConfigurationType>
+		<PlatformToolset>v143</PlatformToolset>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Development_Game|x64'" Label="Configuration">
+		<ConfigurationType>Makefile</ConfigurationType>
+		<PlatformToolset>v143</PlatformToolset>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release_Editor|x64'" Label="Configuration">
+		<ConfigurationType>Makefile</ConfigurationType>
+		<PlatformToolset>v143</PlatformToolset>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release_Game|x64'" Label="Configuration">
+		<ConfigurationType>Makefile</ConfigurationType>
+		<PlatformToolset>v143</PlatformToolset>
+	</PropertyGroup>
+	<ImportGroup Condition="'$(Configuration)|$(Platform)'=='Development_Editor|x64'" Label="PropertySheets">
+		<Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+	</ImportGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Development_Editor|x64'">
+		<IncludePath />
+		<ReferencePath />
+		<LibraryPath />
+		<LibraryWPath />
+		<SourcePath />
+		<ExcludePath />
+		<NMakeBuildCommandLine>..\..\..\Build\BatchFiles\Build.bat -Target="PersonaEditor Win64 Development"</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>..\..\..\Build\BatchFiles\Rebuild.bat -Target="PersonaEditor Win64 Development"</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>..\..\..\Build\BatchFiles\Clean.bat -Target="PersonaEditor Win64 Development"</NMakeCleanCommandLine>
+		<NMakeOutput>..\..\..\Engine\Binaries\Win64\PersonaEditor.exe</NMakeOutput>
+		<AdditionalOptions>/std:c++17  /Zc:hiddenFriend /Zc:__cplusplus</AdditionalOptions>
+	</PropertyGroup>
+	<ImportGroup Condition="'$(Configuration)|$(Platform)'=='Development_Game|x64'" Label="PropertySheets">
+		<Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+	</ImportGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Development_Game|x64'">
+		<IncludePath />
+		<ReferencePath />
+		<LibraryPath />
+		<LibraryWPath />
+		<SourcePath />
+		<ExcludePath />
+		<NMakeBuildCommandLine>..\..\..\Build\BatchFiles\Build.bat -Target="PersonaGame Win64 Development"</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>..\..\..\Build\BatchFiles\Rebuild.bat -Target="PersonaGame Win64 Development"</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>..\..\..\Build\BatchFiles\Clean.bat -Target="PersonaGame Win64 Development"</NMakeCleanCommandLine>
+		<NMakeOutput>..\..\..\Engine\Binaries\Win64\PersonaGame.exe</NMakeOutput>
+		<AdditionalOptions>/std:c++17  /Zc:hiddenFriend /Zc:__cplusplus</AdditionalOptions>
+	</PropertyGroup>
+	<ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release_Editor|x64'" Label="PropertySheets">
+		<Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+	</ImportGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release_Editor|x64'">
+		<IncludePath />
+		<ReferencePath />
+		<LibraryPath />
+		<LibraryWPath />
+		<SourcePath />
+		<ExcludePath />
+		<NMakeBuildCommandLine>..\..\..\Build\BatchFiles\Build.bat -Target="PersonaEditor Win64 Release"</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>..\..\..\Build\BatchFiles\Rebuild.bat -Target="PersonaEditor Win64 Release"</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>..\..\..\Build\BatchFiles\Clean.bat -Target="PersonaEditor Win64 Release"</NMakeCleanCommandLine>
+		<NMakeOutput>..\..\..\Engine\Binaries\Win64\PersonaEditor.exe</NMakeOutput>
+		<AdditionalOptions>/std:c++17  /Zc:hiddenFriend /Zc:__cplusplus</AdditionalOptions>
+	</PropertyGroup>
+	<ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release_Game|x64'" Label="PropertySheets">
+		<Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+	</ImportGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release_Game|x64'">
+		<IncludePath />
+		<ReferencePath />
+		<LibraryPath />
+		<LibraryWPath />
+		<SourcePath />
+		<ExcludePath />
+		<NMakeBuildCommandLine>..\..\..\Build\BatchFiles\Build.bat -Target="PersonaGame Win64 Release"</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>..\..\..\Build\BatchFiles\Rebuild.bat -Target="PersonaGame Win64 Release"</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>..\..\..\Build\BatchFiles\Clean.bat -Target="PersonaGame Win64 Release"</NMakeCleanCommandLine>
+		<NMakeOutput>..\..\..\Engine\Binaries\Win64\PersonaGame.exe</NMakeOutput>
+		<AdditionalOptions>/std:c++17  /Zc:hiddenFriend /Zc:__cplusplus</AdditionalOptions>
+	</PropertyGroup>
+	<ItemGroup>
+		<None Include="D:\Projects\PersonaEngine\Engine\Source\Editor\Editor.Build.cs" />
+		<None Include="D:\Projects\PersonaEngine\Engine\Source\Runtime\Core\Core.Build.cs" />
+		<ClInclude Include="D:\Projects\PersonaEngine\Engine\Source\Runtime\Core\Private\PrivateCorePCH.h">
+			<AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);..\..\Source\Runtime\Core\Public</AdditionalIncludeDirectories>
+		</ClInclude>
+		<ClCompile Include="D:\Projects\PersonaEngine\Engine\Source\Runtime\Core\Private\Containers\Array.cpp">
+			<AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);D:\Projects\PersonaEngine\Engine\Source;..\..\Source\Runtime\Core\Public;..\..\Source\Runtime\Core\Private</AdditionalIncludeDirectories>
+			<ForcedIncludeFiles>$(SolutionDir)Engine\Intermediate\Build\PCHHeaders\PCH.Core.h</ForcedIncludeFiles>
+			<AdditionalOptions>$(AdditionalOptions) /Yu"$(SolutionDir)Engine\Intermediate\Build\PCHHeaders\PCH.Core.h"</AdditionalOptions>
+		</ClCompile>
+		<ClCompile Include="D:\Projects\PersonaEngine\Engine\Source\Runtime\Core\Private\Containers\Map.cpp">
+			<AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);D:\Projects\PersonaEngine\Engine\Source;..\..\Source\Runtime\Core\Public;..\..\Source\Runtime\Core\Private</AdditionalIncludeDirectories>
+			<ForcedIncludeFiles>$(SolutionDir)Engine\Intermediate\Build\PCHHeaders\PCH.Core.h</ForcedIncludeFiles>
+			<AdditionalOptions>$(AdditionalOptions) /Yu"$(SolutionDir)Engine\Intermediate\Build\PCHHeaders\PCH.Core.h"</AdditionalOptions>
+		</ClCompile>
+		<ClCompile Include="D:\Projects\PersonaEngine\Engine\Source\Runtime\Core\Private\Containers\String.cpp">
+			<AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);D:\Projects\PersonaEngine\Engine\Source;..\..\Source\Runtime\Core\Public;..\..\Source\Runtime\Core\Private</AdditionalIncludeDirectories>
+			<ForcedIncludeFiles>$(SolutionDir)Engine\Intermediate\Build\PCHHeaders\PCH.Core.h</ForcedIncludeFiles>
+			<AdditionalOptions>$(AdditionalOptions) /Yu"$(SolutionDir)Engine\Intermediate\Build\PCHHeaders\PCH.Core.h"</AdditionalOptions>
+		</ClCompile>
+		<ClCompile Include="D:\Projects\PersonaEngine\Engine\Source\Runtime\Core\Private\Containers\Vector.cpp">
+			<AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);D:\Projects\PersonaEngine\Engine\Source;..\..\Source\Runtime\Core\Public;..\..\Source\Runtime\Core\Private</AdditionalIncludeDirectories>
+			<ForcedIncludeFiles>$(SolutionDir)Engine\Intermediate\Build\PCHHeaders\PCH.Core.h</ForcedIncludeFiles>
+			<AdditionalOptions>$(AdditionalOptions) /Yu"$(SolutionDir)Engine\Intermediate\Build\PCHHeaders\PCH.Core.h"</AdditionalOptions>
+		</ClCompile>
+		<ClCompile Include="D:\Projects\PersonaEngine\Engine\Source\Runtime\Core\Private\HAL\GenericPlatform.cpp">
+			<AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);D:\Projects\PersonaEngine\Engine\Source;..\..\Source\Runtime\Core\Public;..\..\Source\Runtime\Core\Private</AdditionalIncludeDirectories>
+			<ForcedIncludeFiles>$(SolutionDir)Engine\Intermediate\Build\PCHHeaders\PCH.Core.h</ForcedIncludeFiles>
+			<AdditionalOptions>$(AdditionalOptions) /Yu"$(SolutionDir)Engine\Intermediate\Build\PCHHeaders\PCH.Core.h"</AdditionalOptions>
+		</ClCompile>
+		<ClCompile Include="D:\Projects\PersonaEngine\Engine\Source\Runtime\Core\Private\HAL\Platform.cpp">
+			<AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);D:\Projects\PersonaEngine\Engine\Source;..\..\Source\Runtime\Core\Public;..\..\Source\Runtime\Core\Private</AdditionalIncludeDirectories>
+			<ForcedIncludeFiles>$(SolutionDir)Engine\Intermediate\Build\PCHHeaders\PCH.Core.h</ForcedIncludeFiles>
+			<AdditionalOptions>$(AdditionalOptions) /Yu"$(SolutionDir)Engine\Intermediate\Build\PCHHeaders\PCH.Core.h"</AdditionalOptions>
+		</ClCompile>
+		<ClCompile Include="D:\Projects\PersonaEngine\Engine\Source\Runtime\Core\Private\Memory\Memory.cpp">
+			<AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);D:\Projects\PersonaEngine\Engine\Source;..\..\Source\Runtime\Core\Public;..\..\Source\Runtime\Core\Private</AdditionalIncludeDirectories>
+			<ForcedIncludeFiles>$(SolutionDir)Engine\Intermediate\Build\PCHHeaders\PCH.Core.h</ForcedIncludeFiles>
+			<AdditionalOptions>$(AdditionalOptions) /Yu"$(SolutionDir)Engine\Intermediate\Build\PCHHeaders\PCH.Core.h"</AdditionalOptions>
+		</ClCompile>
+		<ClCompile Include="D:\Projects\PersonaEngine\Engine\Source\Runtime\Core\Private\Windows\WindowsEntry.cpp">
+			<AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);D:\Projects\PersonaEngine\Engine\Source;..\..\Source\Runtime\Core\Public;..\..\Source\Runtime\Core\Private</AdditionalIncludeDirectories>
+			<ForcedIncludeFiles>$(SolutionDir)Engine\Intermediate\Build\PCHHeaders\PCH.Core.h</ForcedIncludeFiles>
+			<AdditionalOptions>$(AdditionalOptions) /Yu"$(SolutionDir)Engine\Intermediate\Build\PCHHeaders\PCH.Core.h"</AdditionalOptions>
+		</ClCompile>
+		<ClCompile Include="D:\Projects\PersonaEngine\Engine\Source\Runtime\Core\Private\Windows\WindowsPlatform.cpp">
+			<AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);D:\Projects\PersonaEngine\Engine\Source;..\..\Source\Runtime\Core\Public;..\..\Source\Runtime\Core\Private</AdditionalIncludeDirectories>
+			<ForcedIncludeFiles>$(SolutionDir)Engine\Intermediate\Build\PCHHeaders\PCH.Core.h</ForcedIncludeFiles>
+			<AdditionalOptions>$(AdditionalOptions) /Yu"$(SolutionDir)Engine\Intermediate\Build\PCHHeaders\PCH.Core.h"</AdditionalOptions>
+		</ClCompile>
+		<ClInclude Include="D:\Projects\PersonaEngine\Engine\Source\Runtime\Core\Public\Core.h">
+			<AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);..\..\Source\Runtime\Core\Public</AdditionalIncludeDirectories>
+		</ClInclude>
+		<ClInclude Include="D:\Projects\PersonaEngine\Engine\Source\Runtime\Core\Public\Containers\Array.h">
+			<AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);..\..\Source\Runtime\Core\Public</AdditionalIncludeDirectories>
+		</ClInclude>
+		<ClInclude Include="D:\Projects\PersonaEngine\Engine\Source\Runtime\Core\Public\Containers\Map.h">
+			<AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);..\..\Source\Runtime\Core\Public</AdditionalIncludeDirectories>
+		</ClInclude>
+		<ClInclude Include="D:\Projects\PersonaEngine\Engine\Source\Runtime\Core\Public\Containers\String.h">
+			<AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);..\..\Source\Runtime\Core\Public</AdditionalIncludeDirectories>
+		</ClInclude>
+		<ClInclude Include="D:\Projects\PersonaEngine\Engine\Source\Runtime\Core\Public\Containers\Vector.h">
+			<AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);..\..\Source\Runtime\Core\Public</AdditionalIncludeDirectories>
+		</ClInclude>
+		<ClInclude Include="D:\Projects\PersonaEngine\Engine\Source\Runtime\Core\Public\HAL\GenericPlatform.h">
+			<AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);..\..\Source\Runtime\Core\Public</AdditionalIncludeDirectories>
+		</ClInclude>
+		<ClInclude Include="D:\Projects\PersonaEngine\Engine\Source\Runtime\Core\Public\HAL\Platform.h">
+			<AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);..\..\Source\Runtime\Core\Public</AdditionalIncludeDirectories>
+		</ClInclude>
+		<ClInclude Include="D:\Projects\PersonaEngine\Engine\Source\Runtime\Core\Public\Memory\Memory.h">
+			<AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);..\..\Source\Runtime\Core\Public</AdditionalIncludeDirectories>
+		</ClInclude>
+		<ClInclude Include="D:\Projects\PersonaEngine\Engine\Source\Runtime\Core\Public\Windows\WindowsEntry.h">
+			<AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);..\..\Source\Runtime\Core\Public</AdditionalIncludeDirectories>
+		</ClInclude>
+		<ClInclude Include="D:\Projects\PersonaEngine\Engine\Source\Runtime\Core\Public\Windows\WindowsPlatform.h">
+			<AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);..\..\Source\Runtime\Core\Public</AdditionalIncludeDirectories>
+		</ClInclude>
+		<None Include="D:\Projects\PersonaEngine\Engine\Source\Runtime\CoreObject\CoreObject.Build.cs" />
+		<ClCompile Include="D:\Projects\PersonaEngine\Engine\Source\Runtime\CoreObject\Private\Object.cpp">
+			<AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);D:\Projects\PersonaEngine\Engine\Source;..\..\Source\Runtime\CoreObject\Public;..\..\Source\Runtime\CoreObject\Private;..\..\Source\Runtime\Core\Public</AdditionalIncludeDirectories>
+			<ForcedIncludeFiles>$(SolutionDir)Engine\Intermediate\Build\PCHHeaders\PCH.CoreObject.h</ForcedIncludeFiles>
+			<AdditionalOptions>$(AdditionalOptions) /Yu"$(SolutionDir)Engine\Intermediate\Build\PCHHeaders\PCH.CoreObject.h"</AdditionalOptions>
+		</ClCompile>
+		<ClInclude Include="D:\Projects\PersonaEngine\Engine\Source\Runtime\CoreObject\Public\Object.h">
+			<AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);..\..\Source\Runtime\CoreObject\Public</AdditionalIncludeDirectories>
+		</ClInclude>
+		<None Include="D:\Projects\PersonaEngine\Engine\Source\Runtime\Engine\Engine.Build.cs" />
+		<None Include="D:\Projects\PersonaEngine\Engine\Source\Runtime\Launch\Launch.Build.cs" />
+		<ClCompile Include="D:\Projects\PersonaEngine\Engine\Source\Runtime\Launch\Private\LaunchEngineLoop.cpp">
+			<AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);D:\Projects\PersonaEngine\Engine\Source;..\..\Source\Runtime\Launch\Public;..\..\Source\Runtime\Launch\Private;..\..\Source\Runtime\Core\Public;..\..\Source\Runtime\Engine\Public</AdditionalIncludeDirectories>
+			<ForcedIncludeFiles>$(SolutionDir)Engine\Intermediate\Build\PCHHeaders\PCH.Launch.h</ForcedIncludeFiles>
+			<AdditionalOptions>$(AdditionalOptions) /Yu"$(SolutionDir)Engine\Intermediate\Build\PCHHeaders\PCH.Launch.h"</AdditionalOptions>
+		</ClCompile>
+		<ClInclude Include="D:\Projects\PersonaEngine\Engine\Source\Runtime\Launch\Public\LaunchEngineLoop.h">
+			<AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);..\..\Source\Runtime\Launch\Public</AdditionalIncludeDirectories>
+		</ClInclude>
+		<None Include="D:\Projects\PersonaEngine\Engine\Source\Runtime\OpenGLRHI\OpenGLRHI.Build.cs" />
+		<None Include="D:\Projects\PersonaEngine\Engine\Source\Runtime\Slate\Slate.Build.cs" />
+		<ClCompile Include="D:\Projects\PersonaEngine\Engine\Source\Runtime\Slate\Private\SButton.cpp">
+			<AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);D:\Projects\PersonaEngine\Engine\Source;..\..\Source\Runtime\Slate\Public;..\..\Source\Runtime\Slate\Private;..\..\Source\Runtime\Core\Public</AdditionalIncludeDirectories>
+			<ForcedIncludeFiles>$(SolutionDir)Engine\Intermediate\Build\PCHHeaders\PCH.Slate.h</ForcedIncludeFiles>
+			<AdditionalOptions>$(AdditionalOptions) /Yu"$(SolutionDir)Engine\Intermediate\Build\PCHHeaders\PCH.Slate.h"</AdditionalOptions>
+		</ClCompile>
+		<ClCompile Include="D:\Projects\PersonaEngine\Engine\Source\Runtime\Slate\Private\SCompoundWidget.cpp">
+			<AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);D:\Projects\PersonaEngine\Engine\Source;..\..\Source\Runtime\Slate\Public;..\..\Source\Runtime\Slate\Private;..\..\Source\Runtime\Core\Public</AdditionalIncludeDirectories>
+			<ForcedIncludeFiles>$(SolutionDir)Engine\Intermediate\Build\PCHHeaders\PCH.Slate.h</ForcedIncludeFiles>
+			<AdditionalOptions>$(AdditionalOptions) /Yu"$(SolutionDir)Engine\Intermediate\Build\PCHHeaders\PCH.Slate.h"</AdditionalOptions>
+		</ClCompile>
+		<ClCompile Include="D:\Projects\PersonaEngine\Engine\Source\Runtime\Slate\Private\SImage.cpp">
+			<AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);D:\Projects\PersonaEngine\Engine\Source;..\..\Source\Runtime\Slate\Public;..\..\Source\Runtime\Slate\Private;..\..\Source\Runtime\Core\Public</AdditionalIncludeDirectories>
+			<ForcedIncludeFiles>$(SolutionDir)Engine\Intermediate\Build\PCHHeaders\PCH.Slate.h</ForcedIncludeFiles>
+			<AdditionalOptions>$(AdditionalOptions) /Yu"$(SolutionDir)Engine\Intermediate\Build\PCHHeaders\PCH.Slate.h"</AdditionalOptions>
+		</ClCompile>
+		<ClCompile Include="D:\Projects\PersonaEngine\Engine\Source\Runtime\Slate\Private\SlateApplication.cpp">
+			<AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);D:\Projects\PersonaEngine\Engine\Source;..\..\Source\Runtime\Slate\Public;..\..\Source\Runtime\Slate\Private;..\..\Source\Runtime\Core\Public</AdditionalIncludeDirectories>
+			<ForcedIncludeFiles>$(SolutionDir)Engine\Intermediate\Build\PCHHeaders\PCH.Slate.h</ForcedIncludeFiles>
+			<AdditionalOptions>$(AdditionalOptions) /Yu"$(SolutionDir)Engine\Intermediate\Build\PCHHeaders\PCH.Slate.h"</AdditionalOptions>
+		</ClCompile>
+		<ClCompile Include="D:\Projects\PersonaEngine\Engine\Source\Runtime\Slate\Private\SLeafWidget.cpp">
+			<AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);D:\Projects\PersonaEngine\Engine\Source;..\..\Source\Runtime\Slate\Public;..\..\Source\Runtime\Slate\Private;..\..\Source\Runtime\Core\Public</AdditionalIncludeDirectories>
+			<ForcedIncludeFiles>$(SolutionDir)Engine\Intermediate\Build\PCHHeaders\PCH.Slate.h</ForcedIncludeFiles>
+			<AdditionalOptions>$(AdditionalOptions) /Yu"$(SolutionDir)Engine\Intermediate\Build\PCHHeaders\PCH.Slate.h"</AdditionalOptions>
+		</ClCompile>
+		<ClCompile Include="D:\Projects\PersonaEngine\Engine\Source\Runtime\Slate\Private\SPanel.cpp">
+			<AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);D:\Projects\PersonaEngine\Engine\Source;..\..\Source\Runtime\Slate\Public;..\..\Source\Runtime\Slate\Private;..\..\Source\Runtime\Core\Public</AdditionalIncludeDirectories>
+			<ForcedIncludeFiles>$(SolutionDir)Engine\Intermediate\Build\PCHHeaders\PCH.Slate.h</ForcedIncludeFiles>
+			<AdditionalOptions>$(AdditionalOptions) /Yu"$(SolutionDir)Engine\Intermediate\Build\PCHHeaders\PCH.Slate.h"</AdditionalOptions>
+		</ClCompile>
+		<ClCompile Include="D:\Projects\PersonaEngine\Engine\Source\Runtime\Slate\Private\STextBlock.cpp">
+			<AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);D:\Projects\PersonaEngine\Engine\Source;..\..\Source\Runtime\Slate\Public;..\..\Source\Runtime\Slate\Private;..\..\Source\Runtime\Core\Public</AdditionalIncludeDirectories>
+			<ForcedIncludeFiles>$(SolutionDir)Engine\Intermediate\Build\PCHHeaders\PCH.Slate.h</ForcedIncludeFiles>
+			<AdditionalOptions>$(AdditionalOptions) /Yu"$(SolutionDir)Engine\Intermediate\Build\PCHHeaders\PCH.Slate.h"</AdditionalOptions>
+		</ClCompile>
+		<ClCompile Include="D:\Projects\PersonaEngine\Engine\Source\Runtime\Slate\Private\SWidget.cpp">
+			<AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);D:\Projects\PersonaEngine\Engine\Source;..\..\Source\Runtime\Slate\Public;..\..\Source\Runtime\Slate\Private;..\..\Source\Runtime\Core\Public</AdditionalIncludeDirectories>
+			<ForcedIncludeFiles>$(SolutionDir)Engine\Intermediate\Build\PCHHeaders\PCH.Slate.h</ForcedIncludeFiles>
+			<AdditionalOptions>$(AdditionalOptions) /Yu"$(SolutionDir)Engine\Intermediate\Build\PCHHeaders\PCH.Slate.h"</AdditionalOptions>
+		</ClCompile>
+		<ClCompile Include="D:\Projects\PersonaEngine\Engine\Source\Runtime\Slate\Private\SWindow.cpp">
+			<AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);D:\Projects\PersonaEngine\Engine\Source;..\..\Source\Runtime\Slate\Public;..\..\Source\Runtime\Slate\Private;..\..\Source\Runtime\Core\Public</AdditionalIncludeDirectories>
+			<ForcedIncludeFiles>$(SolutionDir)Engine\Intermediate\Build\PCHHeaders\PCH.Slate.h</ForcedIncludeFiles>
+			<AdditionalOptions>$(AdditionalOptions) /Yu"$(SolutionDir)Engine\Intermediate\Build\PCHHeaders\PCH.Slate.h"</AdditionalOptions>
+		</ClCompile>
+		<ClCompile Include="D:\Projects\PersonaEngine\Engine\Source\Runtime\Slate\Private\Render\ElementBatchMerger.cpp">
+			<AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);D:\Projects\PersonaEngine\Engine\Source;..\..\Source\Runtime\Slate\Public;..\..\Source\Runtime\Slate\Private;..\..\Source\Runtime\Core\Public</AdditionalIncludeDirectories>
+			<ForcedIncludeFiles>$(SolutionDir)Engine\Intermediate\Build\PCHHeaders\PCH.Slate.h</ForcedIncludeFiles>
+			<AdditionalOptions>$(AdditionalOptions) /Yu"$(SolutionDir)Engine\Intermediate\Build\PCHHeaders\PCH.Slate.h"</AdditionalOptions>
+		</ClCompile>
+		<ClCompile Include="D:\Projects\PersonaEngine\Engine\Source\Runtime\Slate\Private\Render\SlateDrawElement.cpp">
+			<AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);D:\Projects\PersonaEngine\Engine\Source;..\..\Source\Runtime\Slate\Public;..\..\Source\Runtime\Slate\Private;..\..\Source\Runtime\Core\Public</AdditionalIncludeDirectories>
+			<ForcedIncludeFiles>$(SolutionDir)Engine\Intermediate\Build\PCHHeaders\PCH.Slate.h</ForcedIncludeFiles>
+			<AdditionalOptions>$(AdditionalOptions) /Yu"$(SolutionDir)Engine\Intermediate\Build\PCHHeaders\PCH.Slate.h"</AdditionalOptions>
+		</ClCompile>
+		<ClCompile Include="D:\Projects\PersonaEngine\Engine\Source\Runtime\Slate\Private\Render\SlateRenderer.cpp">
+			<AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);D:\Projects\PersonaEngine\Engine\Source;..\..\Source\Runtime\Slate\Public;..\..\Source\Runtime\Slate\Private;..\..\Source\Runtime\Core\Public</AdditionalIncludeDirectories>
+			<ForcedIncludeFiles>$(SolutionDir)Engine\Intermediate\Build\PCHHeaders\PCH.Slate.h</ForcedIncludeFiles>
+			<AdditionalOptions>$(AdditionalOptions) /Yu"$(SolutionDir)Engine\Intermediate\Build\PCHHeaders\PCH.Slate.h"</AdditionalOptions>
+		</ClCompile>
+		<ClInclude Include="D:\Projects\PersonaEngine\Engine\Source\Runtime\Slate\Public\SButton.h">
+			<AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);..\..\Source\Runtime\Slate\Public</AdditionalIncludeDirectories>
+		</ClInclude>
+		<ClInclude Include="D:\Projects\PersonaEngine\Engine\Source\Runtime\Slate\Public\SCompoundWidget.h">
+			<AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);..\..\Source\Runtime\Slate\Public</AdditionalIncludeDirectories>
+		</ClInclude>
+		<ClInclude Include="D:\Projects\PersonaEngine\Engine\Source\Runtime\Slate\Public\SImage.h">
+			<AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);..\..\Source\Runtime\Slate\Public</AdditionalIncludeDirectories>
+		</ClInclude>
+		<ClInclude Include="D:\Projects\PersonaEngine\Engine\Source\Runtime\Slate\Public\SlateApplication.h">
+			<AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);..\..\Source\Runtime\Slate\Public</AdditionalIncludeDirectories>
+		</ClInclude>
+		<ClInclude Include="D:\Projects\PersonaEngine\Engine\Source\Runtime\Slate\Public\SLeafWidget.h">
+			<AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);..\..\Source\Runtime\Slate\Public</AdditionalIncludeDirectories>
+		</ClInclude>
+		<ClInclude Include="D:\Projects\PersonaEngine\Engine\Source\Runtime\Slate\Public\SPanel.h">
+			<AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);..\..\Source\Runtime\Slate\Public</AdditionalIncludeDirectories>
+		</ClInclude>
+		<ClInclude Include="D:\Projects\PersonaEngine\Engine\Source\Runtime\Slate\Public\STextBlock.h">
+			<AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);..\..\Source\Runtime\Slate\Public</AdditionalIncludeDirectories>
+		</ClInclude>
+		<ClInclude Include="D:\Projects\PersonaEngine\Engine\Source\Runtime\Slate\Public\SWidget.h">
+			<AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);..\..\Source\Runtime\Slate\Public</AdditionalIncludeDirectories>
+		</ClInclude>
+		<ClInclude Include="D:\Projects\PersonaEngine\Engine\Source\Runtime\Slate\Public\SWindow.h">
+			<AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);..\..\Source\Runtime\Slate\Public</AdditionalIncludeDirectories>
+		</ClInclude>
+		<ClInclude Include="D:\Projects\PersonaEngine\Engine\Source\Runtime\Slate\Public\Render\ElementBatchMerger.h">
+			<AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);..\..\Source\Runtime\Slate\Public</AdditionalIncludeDirectories>
+		</ClInclude>
+		<ClInclude Include="D:\Projects\PersonaEngine\Engine\Source\Runtime\Slate\Public\Render\SlateDrawElement.h">
+			<AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);..\..\Source\Runtime\Slate\Public</AdditionalIncludeDirectories>
+		</ClInclude>
+		<ClInclude Include="D:\Projects\PersonaEngine\Engine\Source\Runtime\Slate\Public\Render\SlateRenderer.h">
+			<AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);..\..\Source\Runtime\Slate\Public</AdditionalIncludeDirectories>
+		</ClInclude>
+		<None Include="D:\Projects\PersonaEngine\Engine\Source\Runtime\VulkanRHI\VulkanRHI.Build.cs" />
+	</ItemGroup>
+	<Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+</Project>

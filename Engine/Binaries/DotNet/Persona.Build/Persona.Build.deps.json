@@ -1,0 +1,56 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "Persona.Build/1.0.0": {
+        "dependencies": {
+          "PERules": "1.0.0",
+          "Persona.Shared": "1.0.0"
+        },
+        "runtime": {
+          "Persona.Build.dll": {}
+        }
+      },
+      "Persona.Shared/1.0.0": {
+        "runtime": {
+          "Persona.Shared.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "0.0.0.0"
+          }
+        }
+      },
+      "PERules/1.0.0": {
+        "dependencies": {
+          "Persona.Shared": "1.0.0"
+        },
+        "runtime": {
+          "PERules.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Persona.Build/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Persona.Shared/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "PERules/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

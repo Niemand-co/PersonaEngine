@@ -1,0 +1,32 @@
+<Project Sdk="Microsoft.NET.Sdk">
+	<PropertyGroup>
+		<TargetFramework>net6.0</TargetFramework>
+		<OutputType>Library</OutputType>
+		<OutputPath>..\..\..\Binaries\DotNet\PERules</OutputPath>
+		<Configurations>Debug;Release</Configurations>
+		<AssemblyName>PERules</AssemblyName>
+		<RootNamespace>PERules</RootNamespace>
+		<EnableDefaultCompileItems>false</EnableDefaultCompileItems>
+		<AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
+		<ProjectGuid>{BEF3979F-07A9-47AE-2C5A-2F749CBE37A1}</ProjectGuid>
+	</PropertyGroup>
+	<ItemGroup Label="ProjectConfigurations">
+		<ProjectConfiguration Include="Debug|Any CPU">
+			<Configuration>Debug</Configuration>
+			<Platform>Any CPU</Platform>
+		</ProjectConfiguration>
+		<ProjectConfiguration Include="Release|Any CPU">
+			<Configuration>Release</Configuration>
+			<Platform>Any CPU</Platform>
+		</ProjectConfiguration>
+	</ItemGroup>
+	<Import Project="..\..\..\Programs\PersonaEngine.csproj.props" />
+	<ItemGroup>
+		<ProjectReference Include="..\..\..\Programs\Shared\Persona.Shared\Persona.Shared.csproj" />
+	</ItemGroup>
+	<ItemGroup>
+		<Compile Include="..\..\..\Programs\ModuleBuildTool\ModuleRules\*.cs" />
+		<Compile Include="..\..\..\Programs\ModuleBuildTool\ModuleRules\*.cs" />
+<Compile Include="..\..\..\Source\**\*.cs" />
+	</ItemGroup>
+</Project>

@@ -1,0 +1,51 @@
+﻿  MSBuild version 17.6.3+07e294721 for .NET
+  
+  Build succeeded.
+      0 Warning(s)
+      0 Error(s)
+  
+  Time Elapsed 00:00:00.44
+  MSBuild version 17.6.3+07e294721 for .NET
+CSC : warning CS2002: Source file 'D:\Projects\PersonaEngine\Engine\Programs\ModuleBuildTool\ModuleRules\ModuleRules.cs' specified multiple times [D:\Projects\PersonaEngine\Engine\Intermediate\Build\BuildRules\PERules.csproj]
+D:\Projects\PersonaEngine\Engine\Programs\ModuleBuildTool\ModuleRules\ModuleRules.cs(41,34): warning CS8632: The annotation for nullable reference types should only be used in code within a '#nullable' annotations context. [D:\Projects\PersonaEngine\Engine\Intermediate\Build\BuildRules\PERules.csproj]
+  
+  Build succeeded.
+  
+CSC : warning CS2002: Source file 'D:\Projects\PersonaEngine\Engine\Programs\ModuleBuildTool\ModuleRules\ModuleRules.cs' specified multiple times [D:\Projects\PersonaEngine\Engine\Intermediate\Build\BuildRules\PERules.csproj]
+D:\Projects\PersonaEngine\Engine\Programs\ModuleBuildTool\ModuleRules\ModuleRules.cs(41,34): warning CS8632: The annotation for nullable reference types should only be used in code within a '#nullable' annotations context. [D:\Projects\PersonaEngine\Engine\Intermediate\Build\BuildRules\PERules.csproj]
+      2 Warning(s)
+      0 Error(s)
+  
+  Time Elapsed 00:00:00.55
+  Microsoft Windows [Version 10.0.22631.3447]
+  (c) Microsoft Corporation. All rights reserved.
+  
+  D:\Projects\PersonaEngine\Engine\Source>"C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.36.32532\bin\Hostx64\x64\cl.exe" /c /I "C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\ucrt" /I "C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um" /I "C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared" /I "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.36.32532\include" /I "D:\Projects\PersonaEngine\Engine\Source\Runtime\OpenGLRHI\Public" /I "D:\Projects\PersonaEngine\Engine\Source\Runtime\Slate\Public" /I "D:\Projects\PersonaEngine\Engine\Source\Runtime\Launch\Public" "D:\Projects\PersonaEngine\Engine\Intermediate\Build\Win64\x64\PersonaEditor\Development\Launch\Module.Launch.1_of_1.cpp" /Fo"D:\Projects\PersonaEngine\Engine\Intermediate\Build\Win64\x64\PersonaEditor\Development\Launch\Module.Launch.1_of_1.obj"
+  Module.Launch.1_of_1.cpp
+D:\Projects\PersonaEngine\Engine\Source\Runtime\Launch\Public\LaunchEngineLoop.h(3): fatal error C1083: Cannot open include file: 'HAL/Platform.h': No such file or directory
+  
+  D:\Projects\PersonaEngine\Engine\Source>
+  Microsoft Windows [Version 10.0.22631.3447]
+  (c) Microsoft Corporation. All rights reserved.
+  
+  D:\Projects\PersonaEngine\Engine\Source>"C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.36.32532\bin\Hostx64\x64\link.exe" /DLL /LIBPATH:"C:\Program Files (x86)\Windows Kits\10\Lib\10.0.22621.0\ucrt\x64" /LIBPATH:"C:\Program Files (x86)\Windows Kits\10\Lib\10.0.22621.0\um\x64" /LIBPATH:"C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.36.32532\lib\x64" /IMPLIB:" /IMPLIB:"D:\Projects\PersonaEngine\Engine\Intermediate\Build\Win64\x64\PersonaEditor\Development\Core\PersonaEditor-Core.lib" /IMPLIB:" /IMPLIB:"D:\Projects\PersonaEngine\Engine\Intermediate\Build\Win64\x64\PersonaEditor\Development\Engine\PersonaEditor-Engine.lib" /IMPLIB:"D:\Projects\PersonaEngine\Engine\Intermediate\Build\Win64\x64\PersonaEditor\Development\Launch\PersonaEditor-Launch.lib "D:\Projects\PersonaEngine\Engine\Intermediate\Build\Win64\x64\PersonaEditor\Development\Launch\Module.Launch.1_of_1.obj" /out:"D:\Projects\PersonaEngine\Engine\Intermediate\Build\Win64\x64\PersonaEditor\Development\Launch\PersonaEditor-Launch.dll"
+  Microsoft (R) Incremental Linker Version 14.36.32535.0
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+LINK : warning LNK4001: no object files specified; libraries used
+LINK : warning LNK4068: /MACHINE not specified; defaulting to X64
+LINK : fatal error LNK1159: no output file specified
+  
+  D:\Projects\PersonaEngine\Engine\Source>
+  Microsoft Windows [Version 10.0.22631.3447]
+  (c) Microsoft Corporation. All rights reserved.
+  
+  D:\Projects\PersonaEngine\Engine\Source>"C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.36.32532\bin\Hostx64\x64\link.exe" /ENTRY:main "D:\Projects\PersonaEngine\Engine\Intermediate\Build\Win64\x64\PersonaEditor\Development\Core\PersonaEditor-Core.lib" "D:\Projects\PersonaEngine\Engine\Intermediate\Build\Win64\x64\PersonaEditor\Development\Launch\PersonaEditor-Launch.lib" /OUT:"D:\Projects\PersonaEngine\Engine\Binaries\Win64\PersonaEditor.exe"
+  Microsoft (R) Incremental Linker Version 14.36.32535.0
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+LINK : warning LNK4001: no object files specified; libraries used
+LINK : warning LNK4068: /MACHINE not specified; defaulting to X64
+  
+  D:\Projects\PersonaEngine\Engine\Source>
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.MakeFile.Targets(45,5): error MSB3073: The command "..\..\..\Build\BatchFiles\Build.bat -Target="PersonaEditor Win64 Development"" exited with code -1.

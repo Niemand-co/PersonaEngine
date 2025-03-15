@@ -1,0 +1,11 @@
+D:\Projects\PersonaEngine\Engine\Programs\Shared\Persona.Build\obj\Debug\Persona.Build.csproj.AssemblyReference.cache
+D:\Projects\PersonaEngine\Engine\Programs\Shared\Persona.Build\obj\Debug\Persona.Build.GeneratedMSBuildEditorConfig.editorconfig
+D:\Projects\PersonaEngine\Engine\Programs\Shared\Persona.Build\obj\Debug\Persona.Build.csproj.CoreCompileInputs.cache
+D:\Projects\PersonaEngine\Engine\Binaries\DotNet\Persona.Build\Persona.Build.deps.json
+D:\Projects\PersonaEngine\Engine\Binaries\DotNet\Persona.Build\Persona.Build.dll
+D:\Projects\PersonaEngine\Engine\Binaries\DotNet\Persona.Build\ref\Persona.Build.dll
+D:\Projects\PersonaEngine\Engine\Binaries\DotNet\Persona.Build\Persona.Build.pdb
+D:\Projects\PersonaEngine\Engine\Programs\Shared\Persona.Build\obj\Debug\Persona.Build.csproj.CopyComplete
+D:\Projects\PersonaEngine\Engine\Programs\Shared\Persona.Build\obj\Debug\Persona.Build.dll
+D:\Projects\PersonaEngine\Engine\Programs\Shared\Persona.Build\obj\Debug\refint\Persona.Build.dll
+D:\Projects\PersonaEngine\Engine\Programs\Shared\Persona.Build\obj\Debug\Persona.Build.pdb
